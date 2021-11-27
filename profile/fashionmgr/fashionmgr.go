@@ -2,6 +2,8 @@
 package fashionmgr
 
 import (
+	"os"
+	"strings"
 	"sync"
 
 	"github.com/urfave/cli/v2"
@@ -33,7 +35,15 @@ var fashionmgr = &profile.Profile{
 	Setup: func(ctx *cli.Context) error {
 		var retError error
 		fmOnce.Do(func() {
-			profile.SetupRegistry(consul.NewRegistry(registry.Addrs("localhost:8500")))
+			var addresses []string
+			addr := os.Getenv("CONSUL_ADDRESSES")
+			if addr == "" {
+				addresses = []string{"localhost:8500"}
+			} else {
+				addresses = strings.Split(addr, ",")
+			}
+
+			profile.SetupRegistry(consul.NewRegistry(registry.Addrs(addresses...)))
 
 			// Set up a default metrics reporter (being careful not to clash with any that have already been set):
 			if !metrics.IsSet() {
