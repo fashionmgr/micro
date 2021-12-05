@@ -1,6 +1,6 @@
-# Micro [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/micro/micro/v3?tab=doc) [![License](https://img.shields.io/badge/license-apache-blue)](https://opensource.org/licenses/Apache-2.0) [![M3O](https://img.shields.io/badge/micro-cloud-orange)](https://m3o.cloud/) [![M3O](https://img.shields.io/badge/micro-slack-yellow)](https://slack.m3o.com) 
+# Micro [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/micro/micro/v3?tab=doc) [![License](https://img.shields.io/badge/license-apache-blue)](https://opensource.org/licenses/Apache-2.0) 
 
-Micro is a distributed operating system built for the cloud.
+Micro is a distributed cloud operating system.
 
 ## Overview
 
@@ -18,10 +18,6 @@ with the complexity of distributed systems and provides simpler programmable abs
 - [Resources](https://micro.mu/resources) - External resources and contributions
 - [Roadmap](https://micro.mu/roadmap) - Stuff on our agenda over the long haul
 - [FAQ](https://micro.mu/faq) - Frequently asked questions
-
-## Cloud
-
-A living, breathing version of Micro is run as a public cloud platform called [M3O](https://m3o.com).
 
 ## Usage
 
