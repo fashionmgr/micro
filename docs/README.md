@@ -1,12 +1,8 @@
-<div>
-  <a href="https://github.com/micro/micro/stargazers"><img src="https://img.shields.io/github/stars/micro/micro?style=social" /></a>
-  <a href="https://m3o.com"><img src="https://img.shields.io/badge/micro-cloud-orange" /></a>
-  <a href="https://slack.m3o.com"><img src="https://img.shields.io/badge/micro-slack-red" /></a>
-</div>
+## Programming the Real World
 
-Micro is a distributed operating system built for the cloud.
+Micro is a distributed cloud operating system built for real world programming.
 
-## Overview
+## About
 
 Micro addresses the key requirements for building services in the cloud. It leverages the microservices
 architecture pattern and provides a set of services which act as the building blocks of a platform. Micro deals
@@ -37,6 +33,10 @@ Documentation, guides and quick starts for Micro
 
 A living, breathing version of Micro is run as a public cloud platform called [M3O](https://m3o.com).
 
-## License
+## Services
 
-[Apache 2.0](https://opensource.org/licenses/Apache-2.0)
+Services built with Micro live in [github.com/micro/services](https://github.com/micro/services).
+
+## Network
+
+Future ideas about where Micro is going live in [github.com/micro/network](https://github.com/micro/network).

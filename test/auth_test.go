@@ -1,3 +1,4 @@
+//go:build integration
 // +build integration
 
 package test
@@ -10,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micro/micro/v3/cmd/cli/namespace"
+	"github.com/micro/micro/v3/client/cli/namespace"
 	"github.com/micro/micro/v3/util/config"
 )
 
